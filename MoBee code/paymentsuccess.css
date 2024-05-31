@@ -1,0 +1,52 @@
+.pay-box{
+    left: 56px;
+    top: 131px;
+    border-radius: 35px;
+
+    position: absolute;
+    width: 869px;
+    height: 447px;
+    left: 290px;
+    top: 70px;
+
+background: #6AFD5D;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 35px;
+
+}
+
+#word1{
+    position: absolute;
+    width: 847px;
+    height: 162px;
+    left: 164px;
+    top: 100px;
+
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#word2{
+    position: absolute;
+    width: 520px;
+    height: 58px;
+    left: 175px;
+    top: 300px;
+
+    font-family: Heebo;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+
+}

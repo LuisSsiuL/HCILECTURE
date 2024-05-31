@@ -1,0 +1,236 @@
+#category{
+    position: absolute;
+width: 979px;
+height: 125px;
+left: 177px;
+top: 232px;
+
+border-radius: 80px;
+}
+
+#hamburg{
+    position: absolute;
+width: 100px;
+height: 100px;
+left: 200px;
+top: 165px;
+}
+
+#div{
+    position: absolute;
+    width: 1225px;
+    height: 107px;
+    left: 132px;
+    top: 845px;
+    background-color: #ffc800be;
+    border-radius: 80px;
+}
+
+#suv{
+    font-family: 'Hubballi';
+    position: absolute;
+    left: 175px;
+    top: 860px;
+    font-size: 25px;
+}
+
+#cross{
+    text-decoration: none;
+    color: black;
+    font-family: 'Hubballi';
+    position: absolute;
+    left: 265px;
+    top: 885px;
+    font-size: 25px;
+}
+
+#hatch{
+    font-family: 'Hubballi';
+    position: absolute;
+    left: 410px;
+    top: 860px;
+    font-size: 25px;
+}
+
+#sedan{
+    font-family: 'Hubballi';
+    position: absolute;
+    left: 560px;
+    top: 860px;
+    font-size: 25px;
+}
+
+#sport{
+    font-family: 'Hubballi';
+    position: absolute;
+    left: 670px;
+    top: 860px;
+    font-size: 25px;
+}
+
+#convert{
+    font-family: 'Hubballi';
+    position: absolute;
+    left: 770px;
+    top: 860px;
+    font-size: 25px;
+}
+
+#station{
+    font-family: 'Hubballi';
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    left: 930px;
+    top: 860px;
+    font-size: 25px;
+}
+
+#off{
+    font-family: 'Hubballi';
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    left: 1120px;
+    top: 860px;
+    font-size: 25px;
+}
+
+#truck{
+    font-family: 'Hubballi';
+    position: absolute;
+    left: 1250px;
+    top: 860px;
+    font-size: 25px;
+}
+
+#search{
+    position: absolute;
+width: 829px;
+height: 59px;
+left: 265px;
+top: 154px;
+background-color: #ffc8005c;
+border-radius: 80px;
+}
+
+#login{
+    position: absolute;
+    width: 220px;
+    height: 30px;
+    left: 1153px;
+    top: 168px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Hubballi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 31px;    
+}
+
+#cari{
+    position: absolute;
+width: 185px;
+height: 36px;
+left: 188px;
+top: 802px;
+
+font-family: 'Hubballi';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 19px;
+}
+
+#mercy{
+    position: absolute;
+    width: 330px;
+    height: 224px;
+    left: 100px;
+    top: 512px;
+    border-radius: 19px;
+}
+
+#inova{
+    position: absolute;
+    width: 330px;
+    height: 224px;
+    left: 1033px;
+    top: 512px;
+    border-radius: 19px;
+}
+
+#civic{
+    position: absolute;
+    width: 682px;
+    height: 337px;
+    left: 393px;
+    top: 444px;
+    border-radius: 19px;
+}
+
+#crv{
+    position: absolute;
+    width: 345px;
+    height: 280.80px;
+    left: 67px;
+    top: 1100px;
+
+    background: url(crv.jpg);
+    border-radius: 25px;
+}
+
+#rav4{
+    position: absolute;
+    width: 345px;
+    height: 280.80px;
+    left: 68px;
+    top: 1430px;
+
+    background: url(Toyota_RAV4.png);
+    border-radius: 25px;
+}
+
+#kia{
+    position: absolute;
+    width: 345px;
+    height: 280.80px;
+    left: 542px;
+    top: 1100px;
+    background: url(kia-sorento-2021.jpg);
+    border-radius: 25px;
+}
+
+#cx5{
+    position: absolute;
+    width: 345px;
+    height: 280.80px;
+    left: 547px;
+    top: 1430px;
+
+background: url(Mazda_CX5.png);
+border-radius: 25px;
+}
+
+#chevrolet{
+    position: absolute;
+    width: 345px;
+    height: 280.80px;
+    left: 1017px;
+    top: 1100px;
+
+    background: url(chervolet_equinox.png);
+    border-radius: 25px;
+}
+
+#rogue{
+    position: absolute;
+    width: 345px;
+    height: 280.80px;
+    left: 1017px;
+    top: 1430px;
+
+    background: url(rogue.png);
+    border-radius: 25px;
+}

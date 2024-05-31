@@ -1,0 +1,152 @@
+#auction-screen{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+
+    background: #FFFFFF;
+    }
+
+h1{
+    
+    height: 64px;
+    width: 238px;
+    left: 50px;
+    top: 9px;
+    border-radius: nullpx;
+
+    position: absolute;
+   
+
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.195em;
+
+    color: #000000;
+
+    
+}
+
+    #description{
+        position: absolute;
+        width: 671px;
+        height: 162px;
+        left: 383px;
+        top: 630px;
+
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 155.88%;
+        /* or 23px */
+
+        display: flex;
+        align-items: center;
+        text-align: justify;
+
+        color: #000000;
+    }
+
+    #namamobil{
+        /* AUDI TT RS 40 YEARS OF QUATTRO */
+    
+    
+        position: absolute;
+        height: 81px;
+        width: 777px;
+        left: 450px;
+        top: 35px;
+        border-radius: nullpx;
+        
+        
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 47px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #000000;
+    }
+    #namabrand{
+        /* AUDI OFFICIAL */
+    
+    
+        position: absolute;
+        width: 240px;
+        height: 42px;
+        left: 650px;
+        top: 110px;
+        
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #000000;
+    }    
+    #mobil2{
+        /* Rectangle 85 */
+
+        position: absolute;
+        width: 671px;
+        height: 388px;
+        left: 383px;
+        top: 180px;
+        border-radius: 19px;
+    }
+    
+    button{
+        /* Join button */
+
+        position: absolute;
+        width: 106px;
+        height: 64px;
+        left: 688px;
+        top: 903px;
+
+        background: #FAC843;
+        border-radius: 13px;
+
+        
+        font-family: 'Heebo';
+
+    }
+
+
+
+    #countdown{
+    /* 00:00 */
+
+
+    position: absolute;
+    height: 48px;
+    width: 108px;
+    left: 664px;
+    top: 10px;
+    border-radius: nullpx;
+    
+
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 47px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}

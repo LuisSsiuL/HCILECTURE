@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #fff;
+  }
+  
+  .chat-container {
+    position: relative;
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile {
+    background-color: #FAC843;
+    font-size: x-large;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+  }
+  
+  .profile h1 {
+    font-family: 'Heebo', sans-serif;
+  }
+
+  .back {
+    width: 65px;
+    height: 65px;
+    margin-left:10px;
+    margin-right: 50px;
+  }
+
+  .image {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .chat {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow-y: auto;
+  }
+
+  .chat img {
+    padding: 10px;
+    width: 400px;
+    height: 200px;
+    border-radius: 10%;
+    align-self: flex-end;
+  }
+  
+  .incoming {
+    color: #000000;
+    background-color: #FAC843;
+    align-self: flex-start;
+    font-family: 'Heebo'
+  }
+  
+  .outgoing {
+    color: #000000;
+    background-color: #FFEBBA;
+    align-self: flex-end;
+    font-family: 'Heebo'
+  }
+
+  .message {
+    max-width: 70%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .message p {
+    margin: 0;
+  }
+
+  .message-input {
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .message-input img {
+    width: 35px;
+    height: 35px;
+    border-radius: 10%;
+    margin-right: 5px;
+  }
+
+  .message-input img:hover{
+    background-color:#A8A8A2;
+  }
+  
+  .message-input input{
+    background-color: #F4F4F4;
+    flex-grow: 1;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  
+  .message-input button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #ACF380;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .message-input button:hover {
+    background-color: #45a049;
+  }
+  

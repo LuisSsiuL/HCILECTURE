@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Iceland&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Homeanje&display=swap");
+
+.title{
+    position: absolute;
+    width: 470px;
+    height: 101px;
+    left: 443px;
+    top: 70px;
+
+    font-family: 'Hubballi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.705em;
+
+    color: #000000;
+
+    cursor: pointer;
+
+}
+
+.flex-row-2{
+    align-items: flex-end;
+    display: flex;
+    height: 735px;
+    margin-top: 45px;
+    min-width: 1332px;
+}
+
+.overlap-group-container{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 77px;
+    min-height: 707px;
+    width: 346px;
+}
+
+.overlap-group1{ /* MODEL Y Backgorund*/
+    align-items: flex-start;
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    min-width: 345px;
+    padding: 16px 15px;
+}
+
+#CAR1{ /* MODEL Y Image*/
+    position: absolute;
+    width: 345px;
+    height: 315px;
+    left: 67px;
+    top: 250px;
+    border-radius: 25px;
+}
+
+.item1{ /* text: MODEL Y*/
+    position: absolute;
+    width: 112px;
+    height: 54px;
+    left: 82px;
+    top: 267px;
+
+    font-family: 'Hubballi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+}
+
+.overlap-group2{ /* MODEL S PLAID Backgorund */
+    align-items: flex-start;
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    height: 315px;
+    justify-content: flex-end;
+    margin-left: 1px;
+    min-width: 345px;
+    padding: 14px 12px;
+}
+
+#CAR2{ /* MODEL S PLAID  Image */
+    position: absolute;
+    width: 345px;
+    height: 315px;
+    left: 68px;
+    top: 642px;
+    border-radius: 25px;
+    
+}
+
+.item2{ /* text: MODEL S PLAID */
+    position: absolute;
+    width: 112px;
+    height: 54px;
+    left: 289px;
+    top: 657px;
+    
+    font-family: 'Hubballi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.01em;
+    
+    color: #FFFFFF;
+}
+
+
+.flex-col{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 77px;
+    margin-left: 129px;
+    min-height: 707px;
+    width: 350px;
+
+}
+
+.component7{ /* MODEL X Background */
+    align-items: flex-start;
+    background-position: 50% 50%;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    height: 315px;
+    margin-right: 5px;
+    min-width: 345px;
+    padding: 5px;
+}
+
+#CAR3{ /* MODEL X Image */
+    position: absolute;
+    width: 345px;
+    height: 315px;
+    left: 542px;
+    top: 250px;
+    border-radius: 25px;
+
+}
+
+.item3{ /* text: MODEL X */
+    position: absolute;
+  
+    width: 112px;
+    height: 54px;
+    left: 800px;
+    top: 253px;
+
+    font-family: 'Hubballi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.24px;
+    height: 54px;
+    flex-direction: column;
+
+    color: #000000;
+}
+
+.overlap-group4{ /* MODEL Y LONG RANGE Background */
+    align-items: flex-start;
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    height: 315px;
+    margin-left: 5px;
+    min-width: 345px;
+    padding: 5px 0px;
+}
+
+#CAR4{ /*MODEL Y LONG RANGE image*/
+    position: absolute;
+    width: 345px;
+    height: 315px;
+    left: 547px;
+    top: 642px;
+    border-radius: 25px;
+}
+
+.item4{ /* text: MODEL Y LONG RANGE */
+    position: absolute;
+    width: 112px;
+    height: 54px;
+    left: 547px;
+    top: 648px;
+
+    font-family: 'Hubballi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+}
+
+
+
+.overlap-group-container-1{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 77px;
+    margin-left: 125px;
+    min-height: 707px;
+    width: 345px;
+}
+
+.overlap-group5{ /* MODEL 3 Background */
+    align-items: flex-start;
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    height: 315px;
+    margin-left: 5px;
+    min-width: 345px;
+    padding: 10px;
+}
+
+#CAR5{ /* MODEL 3 Image */
+    position: absolute;
+    width: 345px;
+    height: 315px;
+    left: 1017px;
+    top: 250px;
+    border-radius: 25px;
+}
+
+.item5{ /* text: MODEL 3 */
+    position: absolute;
+    width: 148px;
+    height: 54px;
+    left: 1027px;
+    top: 261px;
+    
+    font-family: 'Hubballi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.01em;
+    
+    color: #FFFFFF;
+    
+}
+
+.overlap-group3{ /* MODEL S Background*/
+    align-items: flex-start;
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    height: 315px;
+    min-width: 345px;
+    padding: 14px 10px;
+}
+
+#CAR6{ /* MODEL S Image */
+    position: absolute;
+    width: 345px;
+    height: 315px;
+    left: 1017px;
+    top: 642px;
+    border-radius: 25px;
+
+}
+
+.item6{ /* text: MODEL S */
+   position: absolute;
+width: 112px;
+height: 54px;
+left: 1027px;
+top: 657px;
+
+font-family: 'Hubballi';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 23px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.01em;
+
+color: #FFFFFF;
+}
+
+.outer-scroll{ /* Scroll button */
+    position: absolute;
+    width: 124.49px;
+    height: 0px;
+    left: 1394.5px;
+    top: 351.24px;
+
+    border: 9px solid rgba(178, 178, 178, 0.38);
+    transform: rotate(-90deg);
+}

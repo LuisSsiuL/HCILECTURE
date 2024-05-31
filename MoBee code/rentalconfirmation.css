@@ -1,0 +1,234 @@
+/* Car display */
+.carpic-image {
+    position: absolute;
+    width: 982px;
+    height: 503px;
+    left: 229px;
+    top: 72px;
+
+  }
+
+.slide-pic {
+    position: absolute;
+    width: 20px;
+    height: 39px;
+    left: 1244px;
+    top: 323px;
+}
+
+/* Merk mobil */
+
+.titlehonda-car {
+
+position: absolute;
+/* width: 200px;
+height: 45px; */
+left: 243px;
+top: 580px;
+
+font-family: 'Homenaje';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 53px;
+/* identical to box height */
+
+letter-spacing: 3px;
+color: #000000;
+
+}
+
+.namarental {
+position: absolute;
+/* width: 143px;
+height: 29px; */
+left: 243px;
+top: 640px;
+
+font-family: 'Heebo';
+font-style: normal;
+/* font-weight: normal; */
+font-size: 13px;
+line-height: 29px;
+
+
+color: #000000;
+}
+
+/* .lamarent {
+    position: absolute;
+    /* width: 198px;
+    height: 44px; */
+    /* left: 245px;
+    top: 720px;
+
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 35px;
+
+    color: #000000;
+} */ 
+
+.input[type="number"]{
+  border: none;
+} 
+
+.hari {
+  position: absolute;
+  /* width: 198px;
+  height: 44px; */
+  left: 245px;
+  top: 720px;
+
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+
+  color: #000000;
+
+  }
+
+.pickup {
+    position: absolute;
+  width: 74px;
+  height: 30px;
+  left: 243px;
+  top: 808px;
+
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #000000;
+
+ }
+
+.dropoff {
+    position: absolute;
+  width: 81px;
+  height: 25px;
+  left: 245px;
+  top: 882px;
+
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+
+  color: #000000;
+}
+
+.timeselect {
+  position: absolute;
+  width: 51px;
+  height: 30px;
+  left: 452px;
+  top: 808px;
+  
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  /* identical to box height */
+  
+  
+  color: #000000;  
+
+}
+
+.dropaddress  {
+  position: absolute;
+  width: 235px;
+  height: 61px;
+  left: 671px;
+  top: 720px;
+
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+
+  color: #000000;
+
+}
+
+.totalrent h1{
+  position: absolute;
+/* width: 60px;
+height: 30px; */
+left: 789px;
+top: 890px;
+
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 35px;
+
+color: #000000;
+
+}
+
+.totalrent p{
+  position: absolute;
+/* width: 170px;
+height: 44px; */
+left: 789px;
+top: 920px;
+
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+
+color: #000000;
+}
+
+.bayarrent {
+  position: absolute;
+  width: 188px;
+  height: 61px;
+  left: 1023px;
+  top: 911px;
+  }
+
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .small-input {
+    width: 50px; /* Ubah sesuai dengan ukuran yang diinginkan */
+    height: 25px; /* Ubah sesuai dengan ukuran yang diinginkan */
+    font-size: 14px; /* Ubah sesuai dengan ukuran font yang diinginkan */
+    border: none;
+}
+
+.wide-input {
+  width: 300px; /* Ubah sesuai dengan lebar yang diinginkan */
+  height: 300px; /* Ubah sesuai dengan tinggi yang diinginkan */
+}
+
+.large-button {
+  width: 200px; /* Ubah sesuai dengan lebar yang diinginkan */
+  height: 50px; /* Ubah sesuai dengan tinggi yang diinginkan */
+  background-color: orange;
+  color: white;
+  font-size: 18px; /* Ubah sesuai dengan ukuran font yang diinginkan */
+  border-radius: 10px; /* Ubah sesuai dengan tingkat kebulatan yang diinginkan */
+}

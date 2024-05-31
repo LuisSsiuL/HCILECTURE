@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="RENTS.css">
+        <link href='https://fonts.googleapis.com/css2?family=Heebo&display=swap' rel="stylesheet">
+        <title>RENTAL</title>
+    </head>
+
+    <body>
+        
+        <header id="titles-rent">RENT</header>
+
+        <div class="ukmob">
+            <h4>Pilih Ukuran Mobil</h4>
+        </div>
+
+        <div class="sidebars">
+            <div class="kotak-ukuran">
+                 <input type="radio" id="ukumobil"> Semua Ukuran
+            <br>
+            <input type="radio" id="small"> Small
+            <br>
+            <input type="radio" id="medium"> Medium
+            <br>
+            <input type="radio" id="large"> Large
+            </div>
+        </div>
+
+        <div class="jenismob">
+            <h4>Pilih Jenis Mobil</h4>
+        </div>
+        
+        <div class="sidebar">
+            <div class="kotak-jenis">
+                <input type="radio" name="jenis-mobil" id="SUV"> SUV
+                <br>
+                <input type="radio" name="jenis-mobil" id="MPV"> MPV
+                <br>
+                <input type="radio" name="jenis-mobil" id="crossover"> Crossover
+                <br>
+                <input type="radio" name="jenis-mobil" id="Hatchback"> Hatchback
+                <br>
+                <input type="radio" name="jenis-mobil" id="Sedan"> Sedan
+                <br>
+                <input type="radio" name="jenis-mobil" id="Sport"> Sport
+                <br>
+                <input type="radio" name="jenis-mobil" id="COnvertible"> Convertible
+                <br>
+                <input type="radio" name="jenis-mobil" id="stationw"> Station Wagon
+                <br>
+                <input type="radio" name="jenis-mobil" id="Offroad"> Off Road
+                <br>
+                <input type="radio" name="jenis-mobil" id="Truck"> Truck
+                <br>
+                <input type="radio" name="jenis-mobil" id="Elektrik"> Elektrik
+                <br>
+                <input type="radio" name="jenis-mobil" id="Hybrid"> Hybrid
+                <br>
+                <input type="radio" name="jenis-mobil" id="LCGC"> LCGC
+            </div>
+        </div>
+
+        <style>
+            .sidebar {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            background-color: #ffffff;
+            padding: 10px;
+            font-family: 'Heebo';
+            }
+
+            /* .kotak-jenis {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            } */
+
+            .sidebars {
+                display: flex;
+                flex-direction: column;
+                width: 300px;
+                background-color: #ffffff;
+                padding: 10px;
+                font-family: 'Heebo';
+
+                /* position: absolute;
+                height: 147px;
+                left: 71px;
+                top: 258px; */
+           }
+       
+           .kotak-jenis {
+                border: 1px solid #ccc;
+                border-radius: 18px;
+                padding: 10px;
+                margin-bottom: 10px;
+                margin-left: 10px;
+
+                position: absolute;
+                width: 168px;
+                height: 310px;
+                left: 68px;
+                top: 479px;
+            }
+
+            .kotak-ukuran {
+            border: 1px solid #ccc;
+            border-radius: 18px;
+            padding: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+
+            position: absolute;
+            width: 168px;
+            height: 105px;
+            left: 71px;
+            top: 258px;
+        }
+
+
+        </style>
+
+        <div class="input-alamat">
+            <input type="alamat">
+            <label for="">Masukkan alamat kamu</label>
+        </div>
+
+        <div class="input-lokasi">
+            <input type="lokasi">
+            <label for="">Lokasi</label>  
+        </div>
+
+        <div class="car1" onclick="window,location.href='rentaldetail.html';">
+            <img src="Rent stuff/crv.png" id="honda-crv">
+            <img id="people-icon1" src="Rent stuff/group.png">
+            <img id="bag-icon1" src="Rent stuff/vector-17.svg">
+            <a1 id="seats1">6 seats</a1>
+            <a2 id="bag-amount1">3 Large Bag</a2>
+            <a3 id="ukuran-mobil1">Medium</a3>
+            <a4 id="nama-mobil1">HONDA CRV</a4>
+        </div>
+
+        <div class="car2">
+            <img src="Rent stuff/chevrolet.png" id="chervolet">
+            <img id="people-icon2" src="Rent stuff/group.png">
+            <img id="bag-icon2" src="Rent stuff/vector-17.svg">
+            <a1 id="seats2">5 seats</a1>
+            <a2 id="bag-amount2">3 Large Bag</a2>
+            <a3 id="ukuran-mobil2">Medium</a3>
+            <a4 id="nama-mobil2">CHERVOLET EQUINOX</a4>
+        </div>
+
+        <div class="car3">
+            <img src="Rent stuff/rav4.png" id="rav-4">
+            <img id="people-icon3" src="Rent stuff/group.png">
+            <img id="bag-icon3" src="Rent stuff/vector-17.svg">
+            <a1 id="seats3">4 seats</a1>
+            <a2 id="bag-amount3">2 Large Bag</a2>
+            <a3 id="ukuran-mobil3">Small</a3>
+            <a4 id="nama-mobil3">TOYOTA RAV 4</a4>
+        </div>
+
+        <div class="car4">
+            <img src="Rent stuff/cx5.png" id="mazda">
+            <img id="people-icon4" src="Rent stuff/group.png">
+            <img id="bag-icon4" src="Rent stuff/vector-17.svg">
+            <a1 id="seats4">6 seats</a1>
+            <a2 id="bag-amount4">3 Large Bag</a2>
+            <a3 id="ukuran-mobil4">Medium</a3>
+            <a4 id="nama-mobil4">MAZDA CX5</a4>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+
+
+
+
+
+
+
+
+</html>

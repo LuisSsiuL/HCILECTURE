@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rental Detail</title>
+    <link rel="stylesheet" href="rentalconfirmation.css">
+
+</head>
+<body>
+    <div class="carpicc">
+        <img src="Rent stuff/mobilpic.png" alt="Car pic" class="carpic-image">
+    </div>
+     
+    <div class="slide-pics">
+        <img src="Rent stuff/slidekanan.png" alt="slide pic" class="slide-pic">
+    </div>
+
+    <div class="titlehonda-car">
+        <h1>HONDA CRV</h1>
+    </div>
+
+    <div class="namarental">
+        <h2>Sewa Berkah 77</h2>
+    </div>
+
+    <!-- <div class="lamarent">
+        <h1>Lama Penyewaan</h1>
+    </div> -->
+
+    <div class="hari">
+        <label for="hariinput">Lama Penyewaan</label>
+        <br>
+        <input type="number" id="hariinput" class="small-input" max="999"> Hari
+    </div>
+
+
+  
+    <br>
+    <div class="pickup">
+        <label for="datepicker">Pick-up</label>
+        <br>
+        <input type="date" id="datepicker">
+    </div>
+        <br>
+        
+    <div class="dropoff">
+        <label for="datedrop">Drop-off</label>
+        <br>
+        <input type="date" id="datedrop">
+    </div>
+
+     <div class="timeselect">
+        <label for="timeselector">Time</label>
+        <br>
+        <input type="time" id="timeselector">
+    </div>
+   
+    <div class="dropaddress">
+        <label for="address">Drop Off Address</label>
+        <br>
+        <div class="wide-input">
+            <textarea id="address" name="address" placeholder="Alamat kamu.."></textarea>
+        </div>
+    </div>
+
+    <div class="totalrent">
+        <h1>Total</h1> <br>
+        <p>Rpxxxx.xxx,xx</p>
+    </div>
+   
+    <div class="bayarrent">
+        <form action="paymentsuccess.html" method="get">
+            <button type="submit" class="large-button">Bayar</button>
+        </form>
+    </div>
+    
+</body>
+</html>

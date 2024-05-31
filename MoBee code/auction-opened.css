@@ -1,0 +1,585 @@
+h1{
+    
+    height: 64px;
+    width: 238px;
+    left: 50px;
+    top: 9px;
+    border-radius: nullpx;
+
+    position: absolute;
+   
+
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.195em;
+
+    color: #000000;
+
+    
+}
+
+.auction-screen{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+
+    background: #FFFFFF;
+}
+
+.live-view{
+    position: absolute;
+    width: 1039px;
+    height: 543px;
+    left: -210px;
+    top: 10px;
+}
+    
+    #live{
+        /* LIVE */
+    
+    
+    position: absolute;
+    width: 78px;
+    height: 40px;
+    left: 1332px;
+    top: 284px;
+    
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #EA0808;
+    }
+    #liveR{
+        /* Rectangle 92 */
+    
+    
+    position: absolute;
+    width: 62px;
+    height: 31px;
+    left: 1321px;
+    top: 308px;
+    
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 9px;
+    }
+    #hargamulai{
+        /* Harga Mulai: Rp44.500.000 */
+    
+    
+    position: absolute;
+    width: 123px;
+    height: 21px;
+    left: 427px;
+    top: 260px;
+    
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    
+    }
+    #harga1{
+        /* Rp45.000.000 */
+    
+    
+    position: absolute;
+    width: 72px;
+    height: 15px;
+    left: 488px;
+    top: 460px;
+    
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    
+    }
+    #nama1{
+        /* Jisoo */
+    
+    
+    position: absolute;
+    width: 52px;
+    height: 18px;
+    left: 487px;
+    top: 437px;
+    
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    }
+    #eclipse1{
+        /* Ellipse 17 */
+    
+    
+    position: absolute;
+    width: 41px;
+    height: 38px;
+    left: 436px;
+    top: 447px;
+    
+    background: #D9D9D9;
+    border-radius: 50px;
+    }
+    #harga2{
+        /* Rp45.050.000 */
+    
+    
+    position: absolute;
+    width: 72px;
+    height: 15px;
+    left: 488px;
+    top: 519px;
+    
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    }
+    #nama2{
+        /* You */
+    
+    
+    position: absolute;
+    width: 52px;
+    height: 18px;
+    left: 487px;
+    top: 496px;
+    
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    }
+    #eclipse2{
+        /* Ellipse 13 */
+    
+    
+    position: absolute;
+    width: 41px;
+    height: 38px;
+    left: 436px;
+    top: 506px;
+    
+    background: #D9D9D9;
+    border-radius: 50px;
+    }
+    #harga3{
+        /* Rp45.100.000 */
+    
+    
+    position: absolute;
+    width: 72px;
+    height: 15px;
+    left: 488px;
+    top: 578px;
+    
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    
+    }
+    #nama3{
+        /* Budi */
+    
+    
+    position: absolute;
+    width: 52px;
+    height: 18px;
+    left: 487px;
+    top: 555px;
+    
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    
+    }
+    #eclipse3{
+        /* Ellipse 14 */
+    
+    
+    position: absolute;
+    width: 41px;
+    height: 38px;
+    left: 436px;
+    top: 565px;
+    
+    background: #D9D9D9;
+    border-radius: 50px;
+    }
+    #harga4{
+        /* Rp45.150.000 */
+    
+    
+    position: absolute;
+    width: 72px;
+    height: 15px;
+    left: 488px;
+    top: 642px;
+    
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    }
+    #nama4{
+        /* Asep */
+    
+    
+    position: absolute;
+    width: 52px;
+    height: 18px;
+    left: 487px;
+    top: 619px;
+    
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    
+    }
+    #eclipse4{
+        /* Ellipse 15 */
+    
+    
+    position: absolute;
+    width: 41px;
+    height: 38px;
+    left: 436px;
+    top: 629px;
+    
+    background: #D9D9D9;
+    border-radius: 50px;
+    }
+    #harga5{
+        /* Rp45.200.000 */
+    
+    
+    position: absolute;
+    width: 72px;
+    height: 15px;
+    left: 488px;
+    top: 701px;
+    
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    }
+    #nama5{
+        /* Clark */
+    
+    
+    position: absolute;
+    width: 52px;
+    height: 18px;
+    left: 487px;
+    top: 678px;
+    
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    }
+    #eclipse5{
+        /* Ellipse 16 */
+    
+    
+    position: absolute;
+    width: 41px;
+    height: 38px;
+    left: 436px;
+    top: 688px;
+    
+    background: #D9D9D9;
+    border-radius: 50px;
+    }
+    #paragraph1{
+        /* Selamat datang di Auction! Silahkan masukan harga penawaran di kolom komentar sesuai ketentuan yang berlaku. */
+    
+    
+    position: absolute;
+    width: 271px;
+    height: 60px;
+    left: 436px;
+    top: 329px;
+    
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    
+    }
+    #kotak1{
+        /*Kotak List harga*/
+        position: absolute;
+    width: 316px;
+    height: 524px;
+    left: 406px;
+    top: 260px;
+    
+    background: #FFFFFF;
+    border-radius: 12px;
+    }
+    #kotak2{
+        /* Backgroundsemuanya */
+    
+    
+    position: absolute;
+    width: 1039px;
+    height: 543px;
+    left: 398px;
+    top: 250px;
+    
+    background: #F5F5F5;
+    border-radius: 19px;
+    }
+
+    #jam{
+
+    /* 09.00 - 10.00 */
+    
+    
+    position: absolute;
+    width: 175px;
+    height: 56px;
+    left: 1130px;
+    top: 176px;
+    
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    
+    }
+    #car{
+        position: absolute;
+        width: 658px;
+        height: 461px;
+        left: 738px;
+        top: 295px;
+        
+        /* background: url(audi_tt_rs_40 years of quattro_edition_side view.jpg); */
+        border-radius: 9px;
+    }
+
+    #namamobil{
+        /* AUDI TT RS 40 YEARS OF QUATTRO */
+    
+        position: absolute;
+        width: 777px;
+        height: 81px;
+        left: 485px;
+        top: 8px;
+        
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 47px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #000000;
+    }
+    #namabrand{
+
+        /* AUDI OFFICIAL */
+        position: absolute;
+        width: 240px;
+        height: 42px;
+        left: 700px;
+        top: 90px;
+        
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #000000;
+    }
+
+    .type-box{
+        position: absolute;
+        width: 800px;
+        height: 69px;
+        left: -210px;
+        top: 0px;
+    }
+
+    #kotakkuning1{
+        /* Rectangle 91 */
+    
+    
+    position: absolute;
+    width: 890.80px;
+    height: 52px;
+    left: 406px;
+    top: 820px;
+    
+    background: #FFD564;
+    border-radius: 12px;
+    }
+    #kotakkuning2{
+        /* Rectangle 88 */
+    
+    
+    position: absolute;
+    width: 910px;
+    height: 69px;
+    left: 398px;
+    top: 810px;
+    
+    background: #FAC843;
+    border-radius: 15px;
+    }
+
+  
+    .kotaktawar{
+        /* Rectangle 89 */
+    
+    
+        position: absolute;
+        width: 96px;
+        height: 50px;
+        left: 1130px;
+        top: 820px;
+        
+        background: #000000;
+        border-radius: 15px;
+
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 29px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        
+        color: #FFFFFF;
+    }
+
+    #tawar{
+
+        height: 43px;
+        width: 71px;
+        left: 10px;
+        top: 13px;
+        border-radius: nullpx;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    #line1{
+        /* Line 34 */
+    
+    
+    position: absolute;
+    width: 290px;
+    height: 0px;
+    left: 427px;
+    top: 411px;
+    
+    border: 1px solid #000000;
+    transform: rotate(-0.2deg);
+    }
+    #viewers{
+        /* viewers */
+    
+    
+    position: absolute;
+    width: 50px;
+    height: 24px;
+    left: 657px;
+    top: 268px;
+    }

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Hubballi' rel='stylesheet'>
+        <title>MoBee</title>
+    </head>
+    <body>
+
+        <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="transactionhistory.html">Transaction History</a>
+        <a href="auction.html">Auction</a>
+        <a href="rental.html">Rental</a>
+        </div>
+
+        <header class="header">
+            <div class="header-logo">
+                <img src="logo.png" alt="MoBee" style="width: 200px;">
+            </div>                      
+        </header>
+        <span id="hamburg" style="font-size:30px; cursor:pointer; color: #FFC700; margin-right: 10px;" onclick="openNav()">&#9776;</span>
+
+        <!-- Kode isi Website di sini -->
+        <!-- Home page when not log in/sign in -->
+        <link rel="stylesheet" href="homepagenotlogin.css">
+
+    
+        <img src="Home page stuff/crv.png" alt="" id="crv">
+
+        <img src="Home page stuff/rav4.png" alt="" id="rav4">
+
+        <img src="Home page stuff/kia-sorento-2021.jpg" alt="" id="kia">
+
+        <img src="Home page stuff/cx5.png" alt="" id="cx5">
+
+        <img src="Home page stuff/chevrolet.png" alt="" id="chevrolet">
+
+        <img src="Home page stuff/rogue.png" alt="" id="rogue">
+
+        <a href="listcarfrombrands.html"><img src="Home page stuff/category.png" alt="category" id="category"></a>
+        <img src="Home page stuff/exp1.png" alt="mercy" id="mercy">
+        <img src="Home page stuff/exp2.png" alt="inova" id="inova">
+        <img  src="Home page stuff/exp3.png" alt="civic image" id="civic" onclick="window,location.href='detailmobil.html';">
+
+        <form>
+            <input type="text" name="" id="search" placeholder="Cari di sini">
+        </form>
+        <a href="login.html" id="login">SIGN IN/LOGIN</a>
+
+        <p id="cari">Cari kategori</p>
+        <div id="div"></div>
+        <p id="suv">SUV</p>
+
+        <a href="listcarfromcategory.html" id="cross">Crossover</a>
+        <p id="hatch">Hatchback</p>
+        <p id="sedan">Sedan</p>
+        <p id="sport">Sport</p>
+        <p id="convert">Convertible</p>
+        <p id="station">Station Wagon</p>
+        <p id="off">Off road</p>
+        <p id="truck">Truck</p>
+
+    </body>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</html> 

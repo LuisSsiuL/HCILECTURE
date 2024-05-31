@@ -1,0 +1,358 @@
+#car {
+    position: absolute;
+    width: 700px;
+    height: 510px;
+    left: 100px;
+    top: 40px;
+    border-radius: 19px;
+}
+
+#type {
+    position: absolute;
+    width: 418px;
+    height: 53px;
+    left: 898px;
+    top: 20px;
+    font-family: 'Homenaje';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 53px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+#price {
+    position: absolute;
+    width: 285px;
+    height: 44px;
+    left: 901px;
+    top: 100px;
+
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+
+    color: #000000;
+}
+
+#desc {
+    position: absolute;
+width: 452px;
+height: 454px;
+left: 901px;
+top: 165px;
+
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 35px;
+display: flex;
+align-items: center;
+text-align: justify;
+
+color: #00000090;
+
+}
+
+#brand {
+    position: absolute;
+    width: 256px;
+    height: 42px;
+    left: 130px;
+    top: 540px;
+    
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 47px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    
+    color: #000000;
+
+}
+
+#rev{
+    position: absolute;
+    width: 407px;
+    height: 51px;
+    left: 1090px;
+    top: 630px;
+    
+    font-family: 'Heebo';
+    font-style: bold;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+}
+
+#location {
+    box-sizing: border-box;
+
+position: absolute;
+width: 248px;
+height: 185px;
+left: 540px;
+top: 576px;
+
+
+border: 1px solid #000000;
+border-radius: 18px;
+}
+
+
+#logo{
+    position: absolute;
+width: 28px;
+height: 26px;
+left: 750px;
+top: 723px;
+}
+
+#people-icon{
+    height: 37.00028991699219px;
+    width: 32px;
+    left: 103px;
+    top: 649px;
+    border-radius: 0px;
+    
+    position: absolute;
+    left: 7.15%;
+    right: 90.62%;
+    top: 101.40%;
+    bottom: 33.01%;
+}
+
+#bag-icon{
+    height: 36px;
+    width: 32px;
+    left: 103px;
+    top: 723px;
+    border-radius: 0px;
+    
+    position: absolute;
+    left: 7.15%;
+    right: 90.62%;
+    top: 111.61%;
+    bottom: 25.88%;
+}
+
+#spec1 {
+    position: absolute;
+    width: 122px;
+    height: 15px;
+    left: 151px;
+    top: 670px;
+
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #00000090;
+}
+
+#spec2{
+    position: absolute;
+    width: 152px;
+    height: 25px;
+    left: 157px;
+    top: 734px;
+    
+    
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    
+    color: #00000090;
+}
+
+
+.button1{
+    border: none;
+    border-radius: 10px;
+    background-color: #FABE23;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    width: 704px;
+    height: 83px;
+    left: 84px;
+    top: 800px;
+}
+
+.button1:hover{
+    background-color: #8d6707;
+}
+
+.button2:hover{
+    background-color: #843519;
+}
+
+.button2{
+    border: none;
+    border-radius: 10px;
+    background-color: #FF7949;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+width: 229px;
+height: 83px;
+left: 407px;
+top: 886px;
+}
+
+.rev1{
+    position: absolute;
+    width: 393px;
+    height: 82px;
+    left: 939px;
+    top: 700px;
+    font-family: 'Hubballi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+
+    color: #00000090;
+
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(180, 171, 171, 0.5);
+    border-radius: 6px;
+    }
+
+.rev2{
+    position: absolute;
+    width: 393px;
+    height: 82px;
+    left: 939px;
+    top: 800px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(180, 171, 171, 0.5);
+    border-radius: 6px;
+    font-family: 'Hubballi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    
+    color: #00000090;
+}
+
+#star1 {
+    position: absolute;
+width: 14px;
+height: 12px;
+left: 1239px;
+top: 710px;
+}
+
+#star2{
+    position: absolute;
+width: 14px;
+height: 12px;
+left: 1263px;
+top: 710px;
+}
+
+#star3{
+    position: absolute;
+width: 14px;
+height: 12px;
+left: 1287px;
+top: 710px;
+}
+
+#star4{
+    position: absolute;
+width: 14px;
+height: 12px;
+left: 1309px;
+top: 710px;
+}
+
+#star5{
+    position: absolute;
+width: 14px;
+height: 12px;
+left: 1237px;
+top: 810px;
+}
+
+#star6{
+    position: absolute;
+width: 14px;
+height: 12px;
+left: 1263px;
+top: 810px;
+}
+
+#star7{
+    position: absolute;
+width: 14px;
+height: 12px;
+left: 1287px;
+top: 810px;
+}
+
+#star8{
+    position: absolute;
+width: 14px;
+height: 12px;
+left: 1309px;
+top: 810px;
+}
+
+.button3{
+    position: absolute;
+left: 670px;
+top: 965px;
+}
+
+.button4{
+    position: absolute;
+left: 710px;
+top: 965px;
+}
